@@ -1,0 +1,33 @@
+.white {
+  color: white;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.belowNav {
+  position: absolute;
+  top: 100px;
+  display:contents;
+}
+
+.navbar {
+  display: flex;
+  background: black;
+  overflow: hidden;
+  margin: 0px;
+  margin-left: -10px;
+  padding: 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+}
+
+.margin20 {
+  margin: 20;
+  font-size: 35px;
+  margin-left: 15px;
+  margin-top: 10px;
+}

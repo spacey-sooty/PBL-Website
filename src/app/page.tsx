@@ -1,9 +1,9 @@
-import Image from 'next/image'
-import styles from '../styles/page.module.scss'
-import helloworld from './pages/helloworld'
-
 export default function Home() {
   return (
-    helloworld()
+    <div> 
+      <h1> This is underneath the Navbar! </h1>
+      <h1> Hello World! </h1>
+      <p> What brings you here? </p>
+    </div>
   )
 }
