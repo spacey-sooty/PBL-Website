@@ -8,7 +8,7 @@ type Props = {}
 export default class Navbar extends React.Component {
   constructor(props: Props) { super(props) }
 
-  render(): React.ReactNode {
+  render(): React.JSX.Element {
       return (
         <div className={styles.navbar}>
           <div className={styles.margin20}>
